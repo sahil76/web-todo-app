@@ -4,7 +4,9 @@ import functions
 import time
 
 current_time = time.strftime("%b %d, %Y %H:%M:%S")
+print("The time is below!")
 print("It is ", current_time)
+
 while True:
     # Get user input and strip and space characters from it
     user_action = input("Type add, show, edit, complete or exit:").strip()
